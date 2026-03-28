@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=2005">
+
+<title>ManagerZone Stats | Dashboard federácií</title>
+
+<meta name="description" content="Dashboard federácií ManagerZone - základné a pokročilé štatistiky, porovnanie tímov a matchmaking federácií.">
+<meta name="robots" content="index,follow">
+
+<style>
+.home-wrapper{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.hero-buttons{
+    margin-top:20px;
+    display:flex;
+    gap:12px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.home-grid{
+    margin-top:30px;
+}
+
+@media(max-width:768px){
+    .hero-buttons{
+        flex-direction:column;
+    }
+
+    .hero-buttons .btn{
+        width:100%;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+  <div class="wrapper">
+    <div class="logo">MANAGERZONE STATS</div>
+  </div>
+</header>
+
+<nav>
+  <div class="wrapper">
+    <ul>
+      <li><a href="index.html" class="active">DOMOV</a></li>
+      <li><a href="basic.html">ZÁKLADNÉ ŠTATISTIKY</a></li>
+      <li><a href="advanced.html">POKROČILÁ ANALYTIKA</a></li>
+      <li><a href="compare.html">POROVNANIE</a></li>
+      <li><a href="matchmaking.html">MATCHMAKING</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero" role="img" aria-label="ManagerZone štatistiky">
+  <div class="hero-inner">
+    <div class="hero-text">ManagerZone Analytics Dashboard</div>
+    <div class="hero-subtext">
+        Kompletný prehľad federácií, tímov a výkonnosti v ManagerZone
+    </div>
+
+    <div class="hero-buttons">
+        <a href="basic.html" class="btn">Zobraziť štatistiky</a>
+        <a href="compare.html" class="btn">Porovnať tímy</a>
+        <a href="matchmaking.html" class="btn">Matchmaking</a>
+    </div>
+  </div>
+</div>
+
+<main class="content wrapper section home-wrapper">
+
+  <!-- INTRO -->
+  <div class="card text-center" style="max-width:900px; margin:0 auto;">
+    <h2 class="section-title" style="margin-top:0;">Prehľad systému</h2>
+
+    <p style="font-size:16px; color:rgba(255,255,255,0.92); margin-bottom:18px;">
+      Tento dashboard analyzuje výkonnosť federácií v ManagerZone.
+      Poskytuje detailné štatistiky tímov, pokročilé metriky,
+      porovnanie výkonu a optimalizáciu zápasov medzi federáciami.
+    </p>
+
+    <div class="summary-grid">
+
+        <div class="summary-box">
+            <h3>Štatistiky</h3>
+            <div class="summary-small">
+                Prehľad bodov, zápasov, výhier a základných metrík.
+            </div>
+        </div>
+
+        <div class="summary-box">
+            <h3>Analytika</h3>
+            <div class="summary-small">
+                Pokročilé metriky: passing, tackling, value a výkon tímov.
+            </div>
+        </div>
+
+        <div class="summary-box">
+            <h3>Matchmaking</h3>
+            <div class="summary-small">
+                Optimalizácia zápasov medzi federáciami pre maximum bodov.
+            </div>
+        </div>
+
+    </div>
+  </div>
+
+  <!-- MAIN FEATURES -->
+  <div class="cards-grid home-grid">
+
+      <div class="stat-card text-center">
+        <h3 style="margin-bottom:10px; color:#9be39b;">Základné štatistiky</h3>
+        <p style="margin-bottom:16px;">
+            Prehľad federácií, tímov, bodov a výsledkov.
+        </p>
+        <a href="basic.html" class="btn">Otvoriť</a>
+      </div>
+
+      <div class="stat-card text-center">
+        <h3 style="margin-bottom:10px; color:#9be39b;">Pokročilá analytika</h3>
+        <p style="margin-bottom:16px;">
+            Výkonnostné metriky a detailné analýzy tímov.
+        </p>
+        <a href="advanced.html" class="btn">Otvoriť</a>
+      </div>
+
+      <div class="stat-card text-center">
+        <h3 style="margin-bottom:10px; color:#9be39b;">Porovnanie tímov</h3>
+        <p style="margin-bottom:16px;">
+            Porovnaj 2 tímy alebo federácie podľa výkonu.
+        </p>
+        <a href="compare.html" class="btn">Porovnať</a>
+      </div>
+
+      <div class="stat-card text-center">
+        <h3 style="margin-bottom:10px; color:#9be39b;">Matchmaking</h3>
+        <p style="margin-bottom:16px;">
+            Návrh optimálnych zápasov pre maximálny zisk bodov.
+        </p>
+        <a href="matchmaking.html" class="btn">Spustiť</a>
+      </div>
+
+  </div>
+
+  <!-- CTA -->
+  <div style="text-align:center; margin-top:40px;">
+      <a href="basic.html" class="btn">
+          ➜ Prejsť na analýzu federácií
+      </a>
+  </div>
+
+</main>
+
+<footer>Federation Analytics © 2026</footer>
+
+</body>
+</html>
